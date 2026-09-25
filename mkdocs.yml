@@ -7,6 +7,8 @@ repo_url: https://github.com/F26-MTE-481-Group-47/Capstone
 
 theme:
     name: material
+    favicon: images/favicon.svg
+    logo: images/logo.svg
     features:
         - navigation.indexes
         - navigation.tabs
@@ -16,21 +18,39 @@ theme:
 
 plugins:
     - blog:
-        authors_profiles: true
-        categories_allowed:
-            - General
+          authors_profiles: true
+          categories_allowed:
+              - General
+              - Mechanical
+              - Electrical
+              - Hardware
+              - Software
+              - Controls
     - rss:
-        match_path: "blog/posts/.*"
-        date_from_meta:
-            as_creation: date.created
-            as_update: date.updated
+          match_path: "blog/posts/.*"
+          date_from_meta:
+              as_creation: date.created
+              as_update: date.updated
     - search
     - tags
 
+markdown_extensions:
+    - attr_list
+    - md_in_html
+    - pymdownx.emoji:
+          emoji_index: !!python/name:material.extensions.emoji.twemoji
+          emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+hooks:
+    - hooks/members.py
+
+extra_css:
+    - stylesheets/members.css
+
 nav:
     - Home: index.md
-    - Design Log: 
-        - blog/index.md
+    - Design Log:
+          - blog/index.md
     - Members: members.md
 
 extra:

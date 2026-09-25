@@ -2,8 +2,11 @@
 date:
     created: 2023-12-31
     updated: 2024-01-01
-authors: 
-    - pseudonymous_rex
+authors:
+    - asad_sajid
+    - ishraq_anwar
+    - connor_del_bell_belluz
+    - matthew_xue
 categories: 
     - General
 links:

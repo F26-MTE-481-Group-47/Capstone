@@ -1,0 +1,66 @@
+.members-list {
+  margin: 2rem 0;
+}
+
+.member {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.member:first-child {
+  padding-top: 0;
+}
+
+.member-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.member-name {
+  margin: 0 !important;
+  font-weight: 700;
+}
+
+.member-affiliation {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.9rem;
+}
+
+.member-description {
+  margin: 0;
+}
+
+.member-socials {
+  display: flex;
+}
+
+.md-typeset .member-social {
+  color: #000;
+  transition: color 0.2s ease;
+}
+
+.md-typeset .member-social:hover {
+  color: var(--md-accent-fg-color);
+}
+
+.member-social svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  fill: currentColor;
+}
+
+@media (max-width: 600px) {
+  .member {
+    gap: 1.25rem;
+    padding: 1.5rem 0;
+  }
+
+  .member-avatar {
+    width: 100px;
+    height: 100px;
+  }
+}

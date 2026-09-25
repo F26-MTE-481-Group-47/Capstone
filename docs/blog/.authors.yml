@@ -1,5 +1,43 @@
 authors:
-  pseudonymous_rex:
-    name: John Doe
-    description: Creator
+  asad_sajid:
+    name: Asad Sajid
+    affiliation: University of Waterloo
+    description: Mechatronics Engineering Student
     avatar: https://thumb.wikimedia.org/wikipedia/en/thumb/6/6e/University_of_Waterloo_seal.svg/960px-University_of_Waterloo_seal.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    social:
+      - icon: material/linkedin
+        link: https://www.linkedin.com/
+      - icon: material/github
+        link: https://www.github.com/
+
+  connor_del_bell_belluz:
+    name: Connor Del Bell Belluz
+    affiliation: University of Waterloo
+    description: Mechatronics Engineering Student
+    avatar: https://media.licdn.com/dms/image/v2/D4D03AQEmEgyVqkwWMw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1676174085713?e=1792022400&v=beta&t=XzfrqjKmNrgk6xuCjSnXh40nzS1LL_GDLjz1A8Qnhqg
+
+    social:
+      - icon: material/linkedin
+        link: https://www.linkedin.com/in/connor-belluz/
+
+  ishraq_anwar:
+    name: Ishraq Anwar
+    affiliation: University of Waterloo
+    description: Mechatronics Engineering Student
+    avatar: https://thumb.wikimedia.org/wikipedia/en/thumb/6/6e/University_of_Waterloo_seal.svg/960px-University_of_Waterloo_seal.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    social:
+      - icon: material/linkedin
+        link: https://www.linkedin.com/
+      - icon: material/github
+        link: https://www.github.com/
+
+  matthew_xue:
+    name: Matthew Xue
+    affiliation: University of Waterloo
+    description: Mechatronics Engineering Student
+    avatar: https://thumb.wikimedia.org/wikipedia/en/thumb/6/6e/University_of_Waterloo_seal.svg/960px-University_of_Waterloo_seal.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    social:
+      - icon: material/linkedin
+        link: https://www.linkedin.com/
+      - icon: material/github
+        link: https://www.github.com/

@@ -3,11 +3,9 @@ hide:
   - navigation
 ---
 
-# Team Members
+# Members
 
-| Member | Role |
-|---|---|
-| Member 1 | [Role] |
-| Member 2 | [Role] |
-| Member 3 | [Role] |
-| Member 4 | [Role] |
+Meet the team behind our project.
+
+<div class="members-list">
+</div>
