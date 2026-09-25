@@ -1,34 +1,28 @@
 site_name: MTE 481 Capstone
 site_description: MTE 481 Capstone Project
 
+repo_name: GitHub Repository
+repo_url: https://github.com/F26-MTE-481-Group-47/Capstone
+
 theme:
-  name: material
-  features:
-    - navigation.tabs
-    - navigation.top
-    - search.suggest
-    - content.code.copy
+    name: material
+    features:
+        - navigation.indexes
+        - navigation.tabs
+        - navigation.top
+        - search.suggest
+        - content.code.copy
+
+plugins:
+    - blog:
+        authors_profiles: true
+        categories_allowed:
+            - General
+    - search
+    - tags
 
 nav:
-  - Home: index.md
-
-  - Design Log:
-      - Week 1:
-          - Member 1: logs/week-01/member-1.md
-          - Member 2: logs/week-01/member-2.md
-          - Member 3: logs/week-01/member-3.md
-          - Member 4: logs/week-01/member-4.md
-
-      - Week 2:
-          - Member 1: logs/week-02/member-1.md
-          - Member 2: logs/week-02/member-2.md
-          - Member 3: logs/week-02/member-3.md
-          - Member 4: logs/week-02/member-4.md
-
-      - Week 3:
-          - Member 1: logs/week-03/member-1.md
-          - Member 2: logs/week-03/member-2.md
-          - Member 3: logs/week-03/member-3.md
-          - Member 4: logs/week-03/member-4.md
-
-  - Members: members.md
+    - Home: index.md
+    - Design Log: 
+        - blog/index.md
+    - Members: members.md
