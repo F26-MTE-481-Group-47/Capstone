@@ -1,5 +1,6 @@
 site_name: MTE 481 Capstone
 site_description: MTE 481 Capstone Project
+site_url: https://f26-mte-481-group-47.github.io/Capstone/
 
 repo_name: GitHub Repository
 repo_url: https://github.com/F26-MTE-481-Group-47/Capstone
@@ -18,6 +19,11 @@ plugins:
         authors_profiles: true
         categories_allowed:
             - General
+    - rss:
+        match_path: "blog/posts/.*"
+        date_from_meta:
+            as_creation: date.created
+            as_update: date.updated
     - search
     - tags
 
@@ -26,3 +32,9 @@ nav:
     - Design Log: 
         - blog/index.md
     - Members: members.md
+
+extra:
+    social:
+        - icon: material/rss
+          link: /Capstone/feed_rss_created.xml
+          name: Subscribe to our RSS feed
