@@ -1,0 +1,19 @@
+# Week 1
+
+**Member:** Member 2  
+**Dates:** September 8–14, 2026
+
+## Contributions
+
+- ...
+- ...
+- ...
+
+## Progress
+
+...
+
+## Next Steps
+
+- ...
+- ...

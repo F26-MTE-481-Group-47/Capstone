@@ -1,1 +1,34 @@
-site_name: My Docs
+site_name: MTE 481 Capstone
+site_description: MTE 481 Capstone Project
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - Home: index.md
+
+  - Design Log:
+      - Week 1:
+          - Member 1: logs/week-01/member-1.md
+          - Member 2: logs/week-01/member-2.md
+          - Member 3: logs/week-01/member-3.md
+          - Member 4: logs/week-01/member-4.md
+
+      - Week 2:
+          - Member 1: logs/week-02/member-1.md
+          - Member 2: logs/week-02/member-2.md
+          - Member 3: logs/week-02/member-3.md
+          - Member 4: logs/week-02/member-4.md
+
+      - Week 3:
+          - Member 1: logs/week-03/member-1.md
+          - Member 2: logs/week-03/member-2.md
+          - Member 3: logs/week-03/member-3.md
+          - Member 4: logs/week-03/member-4.md
+
+  - Members: members.md

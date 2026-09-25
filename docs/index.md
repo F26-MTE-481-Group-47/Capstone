@@ -1,17 +1,18 @@
-# Welcome to MkDocs
+---
+hide:
+  - navigation
+---
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# MTE 481 Capstone
 
-## Commands
+## Overview
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Brief description of the project.
 
-## Project layout
+## Design Log
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+This site documents the team's progress throughout the MTE 481 capstone project, including individual contributions, project decisions, and next steps.
+
+## Team
+
+See [Members](members.md) for team information.
